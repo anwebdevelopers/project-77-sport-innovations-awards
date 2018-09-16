@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('AvenirNextCyr-BoldItalic.woff2') format('woff2'),
+        url('AvenirNextCyr-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('AvenirNextCyr-Italic.woff2') format('woff2'),
+        url('AvenirNextCyr-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('AvenirNextCyr-Thin.woff2') format('woff2'),
+        url('AvenirNextCyr-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('AvenirNextCyr-LightItalic.woff2') format('woff2'),
+        url('AvenirNextCyr-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('AvenirNextCyr-HeavyItalic.woff2') format('woff2'),
+        url('AvenirNextCyr-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('AvenirNextCyr-Demi.woff2') format('woff2'),
+        url('AvenirNextCyr-Demi.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr Ultra';
+    src: url('AvenirNextCyr-UltraLight.woff2') format('woff2'),
+        url('AvenirNextCyr-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('AvenirNextCyr-DemiItalic.woff2') format('woff2'),
+        url('AvenirNextCyr-DemiItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('AvenirNextCyr-MediumItalic.woff2') format('woff2'),
+        url('AvenirNextCyr-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('AvenirNextCyr-Regular.woff2') format('woff2'),
+        url('AvenirNextCyr-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr Ultra';
+    src: url('AvenirNextCyr-UltraLightIt.woff2') format('woff2'),
+        url('AvenirNextCyr-UltraLightIt.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('AvenirNextCyr-Bold.woff2') format('woff2'),
+        url('AvenirNextCyr-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('AvenirNextCyr-ThinItalic.woff2') format('woff2'),
+        url('AvenirNextCyr-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('AvenirNextCyr-Heavy.woff2') format('woff2'),
+        url('AvenirNextCyr-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('AvenirNextCyr-Medium.woff2') format('woff2'),
+        url('AvenirNextCyr-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('AvenirNextCyr-Light.woff2') format('woff2'),
+        url('AvenirNextCyr-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Houschka Pro';
+    src: url('HouschkaPro-DemiBold.woff2') format('woff2'),
+        url('HouschkaPro-DemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Houschka Pro';
+    src: url('HouschkaPro-Light.woff2') format('woff2'),
+        url('HouschkaPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Houschka Pro';
+    src: url('HouschkaPro-LightItalic.woff2') format('woff2'),
+        url('HouschkaPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Houschka Pro';
+    src: url('HouschkaPro-Medium.woff2') format('woff2'),
+        url('HouschkaPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Houschka Pro';
+    src: url('HouschkaPro-ExtraBold.woff2') format('woff2'),
+        url('HouschkaPro-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Houschka Pro';
+    src: url('HouschkaPro-Bold.woff2') format('woff2'),
+        url('HouschkaPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Houschka Pro';
+    src: url('HouschkaPro-ThinItalic.woff2') format('woff2'),
+        url('HouschkaPro-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Houschka Pro';
+    src: url('HouschkaPro-Thin.woff2') format('woff2'),
+        url('HouschkaPro-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Houschka Pro';
+    src: url('HouschkaPro-ExtraBoldItalic.woff2') format('woff2'),
+        url('HouschkaPro-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Houschka Pro';
+    src: url('HouschkaPro-MediumItalic.woff2') format('woff2'),
+        url('HouschkaPro-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Houschka Pro';
+    src: url('HouschkaPro-DemiBoldItalic.woff2') format('woff2'),
+        url('HouschkaPro-DemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Houschka Pro';
+    src: url('HouschkaPro-BoldItalic.woff2') format('woff2'),
+        url('HouschkaPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+

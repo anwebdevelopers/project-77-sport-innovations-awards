@@ -1,0 +1,124 @@
+.stages {
+    padding: 10rem 0;
+}
+.stages__table {
+    margin: 8rem calc(6% - 15px) 0 calc(6% - 15px);
+}
+.stages__table-title {
+    margin: 8rem 0 0 0;
+    font-size: 5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Houschka Pro';
+    color: #E5E6EE;
+}
+.stages__table-item {
+    margin: 3rem 0 0 0;
+
+    &:before {
+        content: '';
+
+        flex: 1 1 auto;
+        order: 1;
+        display: block;
+        min-width: 3rem;
+        margin : 1.5rem 2rem 0 2rem;
+        border-bottom: 1px dashed #B9C4E1;
+    }
+    display: flex;
+    align-items: flex-start;
+}
+.stages__table-text {
+    flex: 0 1 auto;
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: $color-blue;
+}
+.stages__table-date {
+    flex: 0 1 auto;
+    order: 1;
+    font-size: 2.2rem;
+    font-weight: 500;
+    // white-space: nowrap;
+    text-align: right;
+    color: $color-green;
+}
+.stages__button {
+    margin: 4rem calc(6% - 15px) 0 calc(6% - 15px);
+
+    display: flex;
+    flex-wrap: wrap;
+    .button {
+        margin-top: 4rem;
+        &:not(:last-child) {
+            margin-right: 4rem;
+        }
+    }
+}
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 992px) {
+
+}
+
+@media only screen and (max-width : 768px) {
+
+}
+
+@media only screen and (max-width : 640px) {
+    // .stages__table-item {
+    //     &:before {
+    //         margin : 1.2rem 2rem 0 2rem;
+    //     }
+    // }
+    // .stages__table-text {
+    //     font-size: 2rem;
+    // }
+    // .stages__table-date {
+    //     font-size: 2rem;
+    // }
+}
+
+@media only screen and (max-width : 480px) {
+    .stages__table-item {
+        &:before {
+            display: none;
+        }
+        display: block;
+    }
+    // .stages__table-text {
+    //     font-size: 1.8rem;
+    // }
+    .stages__table-date {
+        text-align: initial;
+        padding: 4rem 0 0 0;
+        position: relative;
+        &:before {
+            content: '';
+
+            position: absolute;
+            left: 1rem;
+            top: 1rem;
+            height: 2rem;
+            border-left: 1px dashed #B9C4E1;
+        }
+    }
+}
+
+@media only screen and (max-width : 360px) {
+    // .stages__table-item {
+    //     &:before {
+    //         margin : 1rem 2rem 0 2rem;
+    //     }
+    // }
+    // .stages__table-text {
+    //     font-size: 1.8rem;
+    // }
+    // .stages__table-date {
+    //     font-size: 1.8rem;
+    // }
+}
