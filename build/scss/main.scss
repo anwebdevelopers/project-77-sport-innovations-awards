@@ -106,6 +106,9 @@ a {
 	font-weight: 500;
 	text-transform: capitalize;
 }
+* + .title {
+	margin-top: 6rem;
+}
 .text {
 	* {
 		max-width: 100% !important;
@@ -182,11 +185,14 @@ a {
     }
 }
 //Custom Styles Here
+@import "components/nav.scss";
 @import "components/header.scss";
 @import "components/about.scss";
 @import "components/stages.scss";
 @import "components/nominations.scss";
-
+@import "components/jury.scss";
+@import "components/parthners.scss";
+@import "components/footer.scss";
 
 //@import "build/scss/components/magnific-popup.scss";
 

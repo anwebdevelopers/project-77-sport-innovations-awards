@@ -61,20 +61,27 @@
 
     &:active,
     &:hover {
-        color: $color-green;
-        background-image: linear-gradient($color-green,$color-green);
+        color: $color-red;
+        background-image: linear-gradient($color-red,$color-red);
         &:before, &:after {
-            background-color: $color-green;
+            background-color: $color-red;
         }
     }
 
     &.active {
-
+        position: fixed;
+        z-index: 1000;
+        
+        font-size: 0;
+        &:after,
+        &:before {
+            background-color: #fff;
+        }
         &:active,
         &:hover {
             &:after,
             &:before {
-                // background-color: #000;
+                background-color: $color-red;
             }
         }
 
@@ -147,6 +154,10 @@
     flex: 0 0 auto;
     font-size: 1.8rem;
     font-weight: 500;
+    transition: .3s;
+    &:hover, &:active {
+        color: $color-red;
+    }
 }
 .header__callback {
     text-decoration: none;
@@ -156,6 +167,10 @@
     margin-top: .5rem;
     font-size: 1.2rem;
     font-weight: 500;
+    transition: .3s;
+    &:hover, &:active {
+        color: $color-red;
+    }
 }
 
 .header__box {

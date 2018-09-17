@@ -23,17 +23,19 @@
 
 <body>
 
-	<!-- <nav class="nav">
-		<ul>
-			<li><a href="#">О премии</a></li>
-			<li><a href="#">Этапы премии</a></li>
-			<li><a href="#">Номинации</a></li>
-			<li><a href="#">Жюри Sport Innovations Awards</a></li>
-			<li><a href="#">Партнеры премии</a></li>
-			<li><a href="#">Контакты</a></li>
-			<li><a href="#">Наши мероприятия</a></li>
-		</ul>
-	</nav> -->
+	<div class="nav" style="background-image: url(img/bg-nav.png);">
+		<div class="container">
+			<ul class="nav__List">
+				<li><a href="#about">О премии</a></li>
+				<li><a href="#stages">Этапы премии</a></li>
+				<li><a href="#nominations">Номинации</a></li>
+				<li><a href="#jury">Жюри Sport Innovations Awards</a></li>
+				<li><a href="#parthners">Партнеры премии</a></li>
+				<li><a href="#contacts">Контакты</a></li>
+				<li><a href="#events">Наши мероприятия</a></li>
+			</ul>
+		</div>
+	</div>
 
 	<header class="header" style="background-image: url(img/bg-header.svg);">
 		<div class="container">
@@ -77,7 +79,7 @@
 		</div>
 	</header>
 
-	<section class="about">
+	<section id="about" class="about">
 		<div class="about__item">
 			<figure class="about__item-img">
 				<img src="img/img-about1.png" alt="">
@@ -113,7 +115,7 @@
 		</div>
 	</section>
 
-	<section class="stages">
+	<section id="stages" class="stages">
 		<div class="container">
 			<h2 class="stages__title title">Этапы премии:</h2>
 			<div class="stages__table">
@@ -143,7 +145,7 @@
 		</div>
 	</section>
 
-	<section class="nominations" style="background-image: url(img/bg-nominations.png);">
+	<section id="nominations" class="nominations" style="background-image: url(img/bg-nominations.png);">
 		<div class="container">
 			<h2 class="nominations__title title">Номинации:</h2>
 			<div class="nominations__box" data-decor="BEST">
@@ -175,7 +177,7 @@
 		</div>
 	</section>
 
-	<section class="jury">
+	<section id="jury" class="jury">
 		<div class="container">
 			<h2 class="jury__title title">Жюри Sport Innovations Awards:</h2>
 			<div class="jury__box">
@@ -186,15 +188,78 @@
 					<div class="jury__item-title">Константин Константинопольский</div>
 					<div class="jury__item-text">Должность</div>
 				</div>
+				<div class="jury__item">
+					<figure class="jury__item-img">
+						<img src="img/img-gury.png" alt="">
+					</figure>
+					<div class="jury__item-title">Константин Константинопольский</div>
+					<div class="jury__item-text">Должность</div>
+				</div>
+				<div class="jury__item">
+					<figure class="jury__item-img">
+						<img src="img/img-gury.png" alt="">
+					</figure>
+					<div class="jury__item-title">Константин Константинопольский</div>
+					<div class="jury__item-text">Должность</div>
+				</div>
+				<div class="jury__item">
+					<figure class="jury__item-img">
+						<img src="img/img-gury.png" alt="">
+					</figure>
+					<div class="jury__item-title">Константин Константинопольский</div>
+					<div class="jury__item-text">Должность</div>
+				</div>
+				<div class="jury__item">
+					<figure class="jury__item-img">
+						<img src="img/img-gury.png" alt="">
+					</figure>
+					<div class="jury__item-title">Константин Константинопольский</div>
+					<div class="jury__item-text">Должность</div>
+				</div>
+				<div class="jury__item">
+					<figure class="jury__item-img">
+						<img src="img/img-gury.png" alt="">
+					</figure>
+					<div class="jury__item-title">Константин Константинопольский</div>
+					<div class="jury__item-text">Должность</div>
+				</div>
+				<div class="jury__item">
+					<figure class="jury__item-img">
+						<img src="img/img-gury.png" alt="">
+					</figure>
+					<div class="jury__item-title">Константин Константинопольский</div>
+					<div class="jury__item-text">Должность</div>
+				</div>
+				<div class="jury__item">
+					<figure class="jury__item-img">
+						<img src="img/img-gury.png" alt="">
+					</figure>
+					<div class="jury__item-title">Константин Константинопольский</div>
+					<div class="jury__item-text">Должность</div>
+				</div>
+				<div class="jury__item">
+					<figure class="jury__item-img">
+						<img src="img/img-gury.png" alt="">
+					</figure>
+					<div class="jury__item-title">Константин Константинопольский</div>
+					<div class="jury__item-text">Должность</div>
+				</div>
+				<div class="jury__item">
+					<figure class="jury__item-img">
+						<img src="img/img-gury.png" alt="">
+					</figure>
+					<div class="jury__item-title">Константин Константинопольский</div>
+					<div class="jury__item-text">Должность</div>
+				</div>
 			</div>
 			<div class="jury__button">
-				<a href="#" class="button">Полный список</a>
+				<button class="button jury-button-show">Полный список</button>
 				<a href="#" class="button button_transparent">Раздел для голосования</a>
 			</div>
 		</div>
 	</section>
 
-	<section class="parthners">
+	<section id="parthners" class="parthners">
 		<div class="container">
 			<h2 class="parthners__title title">Партнеры премии:</h2>
 			<div class="parthners__box">
@@ -214,29 +279,29 @@
 		</div>
 	</section>
 
-	<footer class="footer">
+	<footer class="footer" style="background-image: url(img/bg-footer.png);">
 		<div class="container">
 			<h2 class="footer__title title">Контакты</h2>
-			<div class="footer__contacts">
-				<div class="footer__contacts-item">
-					<figure class="footer__contacts-img">
-						<img src="img/img-contacts1.png" alt="">
+			<div id="contacts" class="footer__direction">
+				<div class="footer__direction-item">
+					<figure class="footer__direction-img">
+						<img src="img/img-direction1.png" alt="">
 					</figure>
-					<div class="footer__contacts-title">Артем Милаков</div>
-					<div class="footer__contacts-text">Продюсер премии</div>
-					<ul class="footer__contacts-links">
+					<div class="footer__direction-title">Артем Милаков</div>
+					<div class="footer__direction-text">Продюсер премии</div>
+					<ul class="footer__direction-links">
 						<li><a href="mailto:milakov@strategiumgroup.ru">milakov@strategiumgroup.ru</a></li>
 						<li><a href="tel:+79038240465">+7 (903) 824 04 65</a></li>
 						<li><a href="tel:+74997042484">+7 (499) 704 24 84</a></li>
 					</ul>
 				</div>
-				<div class="footer__contacts-item">
-					<figure class="footer__contacts-img">
-						<img src="img/img-contacts2.png" alt="">
+				<div class="footer__direction-item">
+					<figure class="footer__direction-img">
+						<img src="img/img-direction2.png" alt="">
 					</figure>
-					<div class="footer__contacts-title">Николай Сорокин</div>
-					<div class="footer__contacts-text">Координатор Премии</div>
-					<ul class="footer__contacts-links">
+					<div class="footer__direction-title">Николай Сорокин</div>
+					<div class="footer__direction-text">Координатор Премии</div>
+					<ul class="footer__direction-links">
 						<li><a href="mailto:sorokin@sponsorforum.ru">sorokin@sponsorforum.ru</a></li>
 						<li><a href="tel:+79657269817">+7 (965) 726 98 17</a></li>
 						<li><a href="tel:+74997042484">+7 (499) 704 24 84</a></li>
@@ -253,7 +318,7 @@
 				</figure>
 			</div>
 			<h2 class="footer__title title">Наши мероприятия</h2>
-			<ul class="footer__events">
+			<ul id="events" class="footer__events">
 				<li><a href="#">Russian Sponsorship Forum</a></li>
 				<li><a href="#">Celebrity Marketing</a></li>
 				<li><a href="#">MarSpo Awards</a></li>
@@ -267,10 +332,10 @@
 			</ul>
 			<div class="footer__box">
 				<figure class="footer__logo">
-					<img src="img/img-logo-footer.svg" alt="">
+					<img src="img/logo-footer.svg" alt="">
 				</figure>
 				<ul class="footer__social">
-					<li><a href="#">f</a></li>
+					<li><a href="#"><svg><use xlink:href="#icon-fb"></use></svg></a></li>
 				</ul>
 				<div class="footer__contacts">
 					<a href="tel:79034567789" class="footer__phone">+7 903 456 77 89</a>

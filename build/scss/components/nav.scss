@@ -1,0 +1,42 @@
+.nav {
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10rem 0;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #90a1b8;
+    color: #fff;
+
+
+    display: none;
+
+    .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+.nav__List {
+    padding: 0;
+    list-style: none;
+    margin: 0 calc(6% - 15px);
+    font-size: 3rem;
+    overflow-y: auto;
+    li {
+        margin: 2rem 0 0 0;
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: .3s;
+            &:hover, &:active {
+                color: $color-red;
+            }
+        }
+    }
+}

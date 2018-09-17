@@ -11,13 +11,14 @@
     &:before {
         content: '';
         position: absolute;
+        z-index: -1;
         left: 0;
         top: 0;
         right: 0;
         bottom: 0;
         background-image: url(../img/bg-nominations-decor1.svg), url(../img/bg-nominations-decor2.svg);
         background-position: 0 100%, 100% 0;
-        background-size: auto auto;
+        background-size: 50% auto, 50% auto;
         background-repeat: no-repeat;
     }
 }
@@ -29,7 +30,7 @@
     &:before {
         content: attr(data-decor);
         display: block;
-        flex: 0 1 auto;
+        flex: 0 0 auto;
         font-size: 22rem;
         font-weight: 700;
         line-height: .8;
@@ -87,4 +88,49 @@
     font-size: 2.2rem;
     font-weight: 600;
     background-color: rgba(255,255,255,.3);
+}
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 992px) {
+
+}
+
+@media only screen and (max-width : 768px) {
+
+}
+
+@media only screen and (max-width : 640px) {
+    .nominations__box {
+        &:before {
+            font-size: 16rem;
+        }
+    }
+    .nominations__inner {
+        margin: 0 0 0 3rem;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .nominations__box {
+        &:before {
+            font-size: 10rem;
+        }
+    }
+    .nominations__inner {
+        margin: 0 0 0 2rem;
+    }
+}
+
+@media only screen and (max-width : 360px) {
+    .nominations__box {
+        &:before {
+            font-size: 5rem;
+        }
+    }
+    .nominations__special-text {
+        font-size: 2rem;
+    }
 }
